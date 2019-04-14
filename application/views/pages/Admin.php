@@ -3,17 +3,11 @@
             <figure>
                 <div class="tourpic">
                     <img width="320" height="180" src="https://placeimg.com/400/225/nature">
-                    <span class="tourcat">Domestic</span>                             
-                    <span class="tourday hot">2d1n</span>
                 </div>
                 <figcaption>
                   <h3 class="entry-title">
-                      <a href="https://reezhdesign.com">Bandung, Indonesia</a></h3>
-                  <span class="description">Domestic Tour Package 2 Days 1 Night</span>
-                  <span class="tourprice">
-                    <span class="currency">Rp. </span><span class="price">1.500.000</span>
-                    <span> / pax</span>
-                  </span>
+                      <a href="https://reezhdesign.com">Nombre Empresa</a></h3>
+                  <span class="description">Direccion</span>
                 </figcaption>
                 <div class="tourbtn">
                     <a href="#" class="btn btn-sm" target="_blank" rel="noreferrer">
@@ -26,3 +20,15 @@
             </figure>
         </div>
     </div>
+    
+<div style="text-align: center;">
+    <button class="button" style="background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+  font-size: 15px;
+  margin: 3px 1px;
+  border-radius: 12px;
+  cursor: pointer;">Add</button>
+</div>

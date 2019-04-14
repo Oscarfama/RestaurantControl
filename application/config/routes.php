@@ -3,7 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 $route['posts'] = 'posts/index';
 
-$route['default_controller'] = 'pages/Admin';
-$route['(:any)'] = 'pages/Admin/$1';
+$route['default_controller'] = 'pages/Owner';
+$route['(:any)'] = 'pages/Owner/$1';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
