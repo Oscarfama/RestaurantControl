@@ -17,13 +17,6 @@
 								<input type="text" class="form-control" name="email" placeholder="Enter your Email"/>
 							</div>
 					</div>
-					<div class="form-group">
-						<label for="username">Numero</label>
-							<div class="input-group">
-								<span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
-								<input type="text" class="form-control" name="username" placeholder="Enter your Username"/>
-							</div>
-					</div>
 					<div style="text-align: center">
 					<button type="submit" >SUBMIT</button>
 					</div>

@@ -1,3 +1,6 @@
+<?php
+ include 'LogInPhp.php'
+?>
  <div class="row tours">
         <div class="tourcard">
             <figure>
@@ -6,7 +9,7 @@
                 </div>
                 <figcaption>
                   <h3 class="entry-title">
-                      <a href="https://reezhdesign.com">Nombre Empresa</a></h3>
+                      <a href="https://reezhdesign.com"><?php echo $values["email"]?> Empresa</a></h3>
                   <span class="description">Direccion</span>
                 </figcaption>
                 <div class="tourbtn">

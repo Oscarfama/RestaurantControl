@@ -1,25 +1,6 @@
 <?php
+include 'LogInPhp.php';
 
-$host = "localhost";
-$user="root";
-$password = "";
-$db = "parcial2";
-
-$connection = mysqli_connect($host,$user,$password, $db);
-if(isset($_POST['email'])){
-	$uname= $_POST['email'];
-	$pass=$_POST['password'];
-
-	$sql= "select count(*) as contar from usuario where email = '$uname' and Password = '$pass' ";
-	$result = mysqli_query($connection,$sql);
-	$array = mysqli_fetch_array($result);
-
-	if($array['contar']>0){
-		header("location: admin");
-	}else {
-		echo " datos incorrectos";
-	}
-}
 ?>
 <div class="backgr">
 <div class="d-flex justify-content-center h-100">
