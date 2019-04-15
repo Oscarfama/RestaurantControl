@@ -9,9 +9,8 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/styleMenu.css">
 	<link rel="stylesheet" type="text/css" href="./assets/css/OwnerStyle.css">    
 	<link rel="stylesheet" type="text/css" href="./assets/css/AdminStyle.css">    
+	<link rel="stylesheet" type="text/css" href="./assets/css/Form.css">    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 
 	</head>
 	<body>

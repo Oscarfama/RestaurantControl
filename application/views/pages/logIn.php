@@ -1,3 +1,26 @@
+<?php
+
+$host = "localhost";
+$user="root";
+$password = "";
+$db = "parcial2";
+
+$connection = mysqli_connect($host,$user,$password, $db);
+if(isset($_POST['email'])){
+	$uname= $_POST['email'];
+	$pass=$_POST['password'];
+
+	$sql= "select count(*) as contar from usuario where email = '$uname' and Password = '$pass' ";
+	$result = mysqli_query($connection,$sql);
+	$array = mysqli_fetch_array($result);
+
+	if($array['contar']>0){
+		header("location: admin");
+	}else {
+		echo " datos incorrectos";
+	}
+}
+?>
 <div class="backgr">
 <div class="d-flex justify-content-center h-100">
 		<div class="card">
@@ -10,19 +33,19 @@
 				</div>
 			</div>
 			<div class="card-body">
-				<form>
+				<form method="POST" action="#">
 					<div class="input-group form-group">
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fa fa-user"></i></span>
 						</div>
-						<input type="text" class="form-control" placeholder="username">
+						<input type="text" class="form-control" name= "email" placeholder="email">
 						
 					</div>
 					<div class="input-group form-group">
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fa fa-key"></i></span>
 						</div>
-						<input type="password" class="form-control" placeholder="password">
+						<input type="password" class="form-control" name= "password" placeholder="password">
 					</div>
 					<div class="row align-items-center remember">
 						<input type="checkbox">Remember Me

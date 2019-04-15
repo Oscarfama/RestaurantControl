@@ -19,8 +19,6 @@ $(function(){
 
 });
 
-
-/* ***** Btn More-Less ***** */
 $("#more").click(function(){
     var $this = $(this);
     $this.toggleClass('more');
@@ -30,8 +28,6 @@ $("#more").click(function(){
         $this.text('Less');
     }
 });
-
-
 
 
 /* ***** Slideanim  ***** */
@@ -45,9 +41,6 @@ $("#more").click(function(){
     }
   });
 }); 
-
-
-
 
 /* ***** Smooth Scrolling  ***** */
 $(document).ready(function(){ 
@@ -65,7 +58,6 @@ $(document).ready(function(){
       });
   } 
 });
-
 
   /* ***** Scroll to Top ***** */ 
   $(window).scroll(function() {

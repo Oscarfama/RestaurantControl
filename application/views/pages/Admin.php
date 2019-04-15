@@ -22,7 +22,7 @@
     </div>
     
 <div style="text-align: center;">
-    <button class="button" style="background-color: #4CAF50; /* Green */
+<a href="Form" class="btn btn-info" role="button" style="background-color: #4CAF50; /* Green */
   border: none;
   color: white;
   padding: 10px;
@@ -30,5 +30,8 @@
   font-size: 15px;
   margin: 3px 1px;
   border-radius: 12px;
-  cursor: pointer;">Add</button>
+  cursor: pointer;">Add</a>
+
 </div>
+
+<!-- <input type="submit" value="Login" class="btn float-right login_btn"-->
